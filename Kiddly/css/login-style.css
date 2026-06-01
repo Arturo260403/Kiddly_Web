@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Montserrat",serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*- font-family: "Cabin Sketch",sans-serif;*/
+
+body {
+    font-family: "Montserrat", serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+
+.containerFromLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.formCardLogin {
+    width: 100%;
+    min-height: 50px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputPass input,
+.inputUser input {
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.btnPersLogin {
+    font-family: "Cabin Sketch", sans-serif;
+    background-color: #38b6ff;
+    color: white;
+}
+
+.btnPersLogin:hover {
+    background-color: #33a8ec;
+    color: white;
+}
